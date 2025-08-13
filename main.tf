@@ -1,3 +1,17 @@
+# =============================================================================
+# AWS 2-Tier Architecture Terraform Configuration
+# =============================================================================
+# This configuration deploys a 2-tier architecture on AWS including:
+# - VPC with public and private subnets
+# - Application Load Balancer in public subnets
+# - Auto Scaling Group with EC2 instances in private subnets
+# - RDS database in private subnets
+# - Security groups and networking components
+# 
+# Author: Generated Infrastructure as Code
+# Last Updated: $(date +'%Y-%m-%d')
+# =============================================================================
+
 # Data sources
 data "aws_availability_zones" "available" {
   state = "available"

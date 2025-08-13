@@ -1,0 +1,79 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# AWS
+.aws/
+aws-exports.js
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python (if Lambda functions)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# SSH keys (if generated locally)
+*.pem
+*.ppk
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Plan files
+*.tfplan
+plan.out
+
+# ZIP files for Lambda
+*.zip
+function.zip
+
+# Editor backup files
+*~
+.#*
+\#*#
+.*.swp
+.*.swo
